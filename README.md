@@ -1,4 +1,4 @@
-# just-trying
+# just-trying / IBM Professional Certificate - Some files
 IBM Professional Certificate in Data Science.
 This repo contains several notebooks, including:
 1. Final assingment in IBM professional certificate SQL course (Honours).
