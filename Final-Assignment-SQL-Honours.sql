@@ -46,12 +46,6 @@ where CD.hardship_index = 98;
 
 
 
-
-
-
-
-
-
 --Exercise 1: Using Joins
 
 --Question 2: 
@@ -68,8 +62,6 @@ where location_description like '%SCHOOL%';
 
 
 
-
-
 --Exercise 1: Using Joins
 
 --Question 2: 
@@ -82,8 +74,6 @@ chicago_crime_data as CCD
 left outer join census_data as CD
 on CCD.community_area_number = CD.community_area_number
 where location_description like '%SCHOOL%';
-
-
 
 
 
@@ -119,9 +109,6 @@ select * from CPS_VIEW;
 
 
 
-
-
-
 --Exercise 2: Creating a View
 
 --Question 1:
@@ -134,12 +121,6 @@ select * from CPS_VIEW;
 
 select "School_Name", "Leaders_Rating"
 from CPS_VIEW;
-
-
-
-
-
-
 
 
 
@@ -175,12 +156,7 @@ END
 
 
 
-
-
-
 select * from chicago_public_schools;
-
-
 
 
 
@@ -204,9 +180,6 @@ BEGIN
 	where school_id = in_School_ID;
 END
 @                                                           -- Routine termination character
-
-
-
 
 
 
@@ -251,10 +224,6 @@ BEGIN
 END IF;
 END
 @                                                           -- Routine termination character
-
-
-
-
 
 
 
@@ -318,9 +287,6 @@ END
 
 
 
-
-
-
 --Exercise 4: Using Transactions
 
 --Question 2: 
@@ -381,11 +347,7 @@ END
 
 
 
-
-
 drop view CPS_VIEW;
-
-
 
 
 
